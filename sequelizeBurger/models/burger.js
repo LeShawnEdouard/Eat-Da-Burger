@@ -1,4 +1,4 @@
-
+// The burger has a burger_name attribute with a STRING as the DataType
 
 module.exports = function(sequelize, DataTypes) {
   var Burger = sequelize.define("Burger", {
@@ -10,3 +10,5 @@ module.exports = function(sequelize, DataTypes) {
   });
   return Burger;
 };
+
+Burger.sync();
