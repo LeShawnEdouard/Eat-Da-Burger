@@ -21,21 +21,17 @@ router.post("/api/burgers", function(req, res) {
     });
 });
 
-// post route
-router.post("/api/burgers", function(req, res) {
-  // takes the request object using it as input for burger.addBurger
-  burger.create(req.body.burger_name, function(result) {
-    console.log(result);
-    // Send back the ID of the new quote
-    res.json({ id: result.insertId });
-  });
-});
 
-// put route
 router.put("/api/burgers/:id", function(req, res) {
-  burger.update(req.params.id, function(result) {
-    console.log(result);
-    // Send back response and let page reload from .then in Ajax
+  db.Burger.update({
+    devoured: true
+  },
+  {
+    where: {
+      id: req.params.id
+    }
+  }
+  ).then(function(result) {
     res.sendStatus(200);
   });
 });
