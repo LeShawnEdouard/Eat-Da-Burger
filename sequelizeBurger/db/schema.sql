@@ -9,5 +9,7 @@ CREATE TABLE burgers (
     id int NOT NULL AUTO_INCREMENT,
     burger_name varchar(255) NOT NULL,
     devoured BOOL DEFAULT false,
+    created_at datetime DEFAULT NULL COMMENT 'created time',
+    updated_at datetime DEFAULT NULL COMMENT 'updated time',
     PRIMARY KEY (id)
 );
