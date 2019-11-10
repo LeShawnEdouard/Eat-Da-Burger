@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/LeShawnEdouard/Eat-Da-Burger/issues"
   },
-  "homepage": "https://github.com/LeShawnEdouard/Eat-Da-Burger#readme"
+  "homepage": "https://github.com/LeShawnEdouard/Eat-Da-Burger#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
