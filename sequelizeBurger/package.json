@@ -4,7 +4,7 @@
   "description": "-Node \r -Express \r -MySQL \r -Handlebars \r -Jquery",
   "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "npm start"
   },
   "author": "",
   "license": "ISC",
