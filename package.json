@@ -4,7 +4,7 @@
   "description": "Welcome to EAT-DA-BURGER",
   "main": "server.js",
   "scripts": {
-    "start": "server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/LeShawnEdouard/Eat-Da-Burger#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "node-modules": "^1.0.1"
   }
 }
