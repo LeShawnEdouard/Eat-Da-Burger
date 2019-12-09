@@ -17,3 +17,4 @@ Dependencies:
 3. MySQL2
 4. Sequelize
 5. Sequelize-cli
+6. Heroku ClearDB
